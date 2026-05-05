@@ -43,7 +43,7 @@ Fiber users show highest churn (1297 customers)
    
 Highest churn seen in Electronic Check users (1071)
 
-8. Services Impact
+7. Services Impact
    
 Online Security: 65% (No) vs 22% (Yes)
 
