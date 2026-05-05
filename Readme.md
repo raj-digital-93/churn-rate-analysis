@@ -1,80 +1,116 @@
-📊 Customer Churn Analysis Dashboard
-📌 Overview
+📊 **Customer Churn Analysis Dashboard**
 
-This project analyzes customer churn for a telecom dataset (~7,000 customers) using SQL and Power BI. The goal is to identify key factors driving churn and provide actionable recommendations to improve customer retention.
+📌 **Overview**
 
-📈 Key Metrics
+This project analyzes customer churn for a telecom dataset using SQL and Power BI. The goal is to identify key factors driving churn and provide actionable recommendations to improve customer retention.
+
+📈 **Key Metrics**
+
 Total Customers: ~7,000
+
 Churned Customers: ~1,870
+
 Churn Rate: 26%
-🔍 Key Insights
+
+🔍 **Key Insights**
+
 1. Contract Type
-Majority of churn comes from month-to-month contracts (~1655 customers)
+
+Majority of churn comes from month-to-month contracts (1655 customers)
 Long-term contracts (1–2 years) show significantly lower churn
+
 2. Tenure Impact
-0–12 months: 47% churn (highest)
+   
+0–12 months: 47% churn
+
 12–24 months: 28.7%
-24–48 months: 20.39%
-48–72 months: 9.5%
 
 👉 Early-stage customers are most likely to churn
 
 3. Pricing Impact
+   
 Churned customers avg charges: ₹74
+
 Non-churned customers avg charges: ₹62
 
 👉 Higher charges correlate with higher churn
 
 4. Internet Service
+   
 Fiber users show highest churn (1297 customers)
-DSL and no-internet users churn less
-5. Payment Method
+
+6. Payment Method
+   
 Highest churn seen in Electronic Check users (1071)
-Other methods (bank transfer, credit card) show lower churn
-6. Services Impact
-🔥 High Impact (Retention Drivers)
+
+8. Services Impact
+   
 Online Security: 65% (No) vs 22% (Yes)
+
 Tech Support: 64% (No) vs 23% (Yes)
 
-👉 Strong reduction in churn
+These are High Impact Retention Drivers
 
-⚖️ Moderate Impact
+⚖️**Moderate Impact**
+
 Online Backup: 57% (No) vs 31% (Yes)
+
 Device Protection: 56% (No) vs 32% (Yes)
-⚠️ Low Impact
-Streaming Movies: 47% vs 42%
-Streaming TV: 47% vs 42%
 
-👉 Minimal influence on churn
-
-🧠 Summary of Drivers
+🧠 **Summary of Drivers**
 
 Churn is mainly driven by:
 
 Month-to-month contracts
+
 Early customer lifecycle (0–12 months)
+
 Higher pricing
+
 Lack of support/security services
+
 Risky payment methods
-🚀 Recommendations
-1. Promote Long-Term Contracts
+
+🚀 **Recommendations**
+
+**1. Promote Long-Term Contracts**
+
 Offer discounts for yearly plans
+
 Bundle services for commitment
-2. Improve Early Customer Experience
+
+**2. Improve Early Customer Experience**
+
 Strong onboarding
+
 Proactive support in first 3–6 months
-3. Enhance Value for High-Paying Customers
+
+**3. Enhance Value for High-Paying Customers**
+
 Improve fiber service quality
+
 Add bundled benefits
-4. Upsell Support & Security Services
+
+**4. Upsell Support & Security Services**
+
 Promote Tech Support and Online Security
+
 Offer free trials or bundles
-5. Optimize Payment Methods
+
+**5. Optimize Payment Methods**
+
 Encourage auto-pay options
+
 Incentivize credit card/bank transfer usage
-6. Target High-Risk Segments
+
+**6. Target High-Risk Segments**
+
 Month-to-month + low tenure + high charges
+
 Run retention campaigns and personalized offers
-🎯 Conclusion
+
+🎯 **Conclusion**
 
 The analysis shows that churn is primarily driven by early-stage customers with low commitment and lack of support services. Focusing on onboarding, service quality, and customer engagement can significantly improve retention.
+
+**Attached pdf for visualisation**
